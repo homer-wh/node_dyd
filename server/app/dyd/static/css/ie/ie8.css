@@ -1,0 +1,348 @@
+@charset"utf-8";
+
+.my-spot {
+    background-image: url("../image/btn03.png")
+}
+.my-spot:hover {
+  	background-image: url("../image/btn03.png")
+}
+.sidebar_fix .to_top {
+    background-image: url("../image/totop00.png")
+}
+.sidebar_fix .to_top:hover{
+  
+  background-image: url("../image/totop00.png")
+}
+#recommend .rec_top {
+  background-image: url("../image/crown_01.png")
+}
+#rec_vedio .rec_top {
+  background-image: url("../image/crown_05.png")
+}
+#rec_subarea .rec_top {
+  background-image: url("../image/crown_03.png") 
+}
+.yuansheng .rec_top {
+  background-image: url("../image/crown_04.png")
+}
+#rec_list .rec_counts span.rec_reply, #rec_vedio_list .rec_counts span.rec_reply {
+    background: url("../image/mobile_reply_icon.png") no-repeat left;
+}
+#rec_list .rec_counts span.rec_sugar, #rec_vedio_list .rec_counts span.rec_sugar {
+    background: url("../image/mobile_candy_icon.png") no-repeat left;
+}
+.yuan-button span.ie03 i{
+  background-image:url("../image/post_item_icon_collect.png");
+}
+.yuan-button span.ie03 i.select{
+  background-image:url("../image/post_item_icon_collect_pressed.png");
+}
+.yuan-button span.ie02 i{
+  background-image:url("../image/post_item_icon_reply.png");
+}
+.yuan-button span.ie01 i{
+  background-image:url("../image/post_item_icon_candy.png");
+}
+.yuan-button span.ie01 i.select{
+  background-image:url("../image/post_item_icon_candy_pressed.png");
+}
+.yuansheng .rec_bottom a {
+    background: url("../image/my_44.png") no-repeat right center;
+}
+
+.user_post .user_post_title span{
+  background: #FD4C86 url("../image/post_detail_send_icon.png") no-repeat 9px;
+
+}
+.user_post .user_post_title span:hover{
+  background: #FB3B7B url("../image/post_detail_send_icon.png") no-repeat 9px;
+}
+.post_position_div {
+    background: url("../image/post_list_nav_icon.png") no-repeat 5px;
+}
+.user_content_div .follow_span {
+    background: #FD4C86 url("../image/plus_icon.png") no-repeat 8px;
+}
+.bounce_box .close .s2{
+  background: url("../image/close001.png") no-repeat center center;
+}
+.bounce_box .close .s2:hover{
+  background: url("../image/close002.png") no-repeat center center;
+}
+.bounce_box .show-pw{
+  background: url("../image/eye01.png") no-repeat  center;
+}
+.bounce_box .show-pw.ext{
+  background: url("../image/eye02.png") no-repeat center;
+}
+.fuxuan .span01{
+  background: url("../image/ms001.png") no-repeat left center;
+}
+/* 自动登陆class */
+.fuxuan .span01.ms{
+  background: url("../image/ms002.png") no-repeat left center;
+}
+.rocket_img .to_bottom{
+    background: #fff url("../image/post_item_icon_reply.png") no-repeat center center;
+}
+.rocket_img .do-collect{
+    background: #fff url("../image/new_postdetail_collect.png") no-repeat center center;
+}
+.rocket_img .do-like{
+    background: #fff url("../image/new_postdetail_candy.png") no-repeat center center;
+}
+.rocket_img .do-collect:hover{
+    background: #fff url("../image/post_item_icon_collect_pressed.png") no-repeat center center;
+}
+.rocket_img .do-like:hover{
+    background: #fff url("../image/post_item_icon_candy_pressed.png") no-repeat center center;
+}
+.rocket_img .do-collect.select{
+    background:#fff url("../image/post_item_icon_collect_pressed.png") no-repeat center center;
+}
+.rocket_img .do-like.select{
+    background:#fff url("../image/post_item_icon_candy_pressed.png") no-repeat center center;
+}
+.hot_search .search_top{
+  background: url("../image/post_list_nav_icon.png") no-repeat 5px 17px;
+}
+.sh-vi .le {
+  background: url("../image/left01.png") no-repeat;
+}
+.ri {
+  background: url("../image/right01.png") no-repeat;
+}
+#rec_vedio_list .show_video{
+  background:rgba(0,0,0,0.6) url("../image/play.png") no-repeat center;
+}
+.rec_list .rec_counts span.rec_reply{
+    background:url("../image/post_item_icon_reply01.png") no-repeat left;
+}
+.rec_list .rec_counts span.rec_sugar{
+    background:url("../image/post_item_icon_candy.png") no-repeat left;
+}
+.yuansheng .rec_top span.ie02{
+  background:url("../image/my_44.png") no-repeat 85px;
+}
+.yuansheng .rec_top span.ie02:hover{
+    background:#e5e5e7 url("../image/my_44.png") no-repeat 85px center;
+}
+.yuansheng .rec_bottom a{
+  background: url("../image/my_44.png") no-repeat right center;
+}
+.my_bo span.ie2 {
+  background: #FD4C86 url("../image/btn03.png") no-repeat 14px;
+}
+#follow_btn{
+  background: #FD4C86 url("../image/plus_icon01.png") no-repeat 14px;
+}
+#user_login{
+  background: #FD4C86 url("../image/plus_icon01.png") no-repeat 15px;
+}
+#check_btn {
+  background: #FD4C86 url("../image/user_home_checkin_icon.png") no-repeat 8px;
+}
+ .middle_nav li.my_01 a{
+  background:url("../image/my_20.png") no-repeat left center;
+}
+.middle_nav li.my_02 a{
+  background:url("../image/my_22.png") no-repeat left center;
+}
+.middle_nav li.my_03 a{
+  background:url("../image/my_24.png") no-repeat left center;
+}
+.middle_nav li.my_04 a{
+  background:url("../image/my_27.png") no-repeat left center;
+} 
+.info_foot .man{
+  background: url("../image/sex_01.png") no-repeat 10px center;
+}
+.info_foot li .man.over {
+  background: url("../image/sex_02.png") no-repeat 10px center;
+}
+.info_foot .woman {
+  background: url("../image/sex_03.png") no-repeat 10px center;
+}
+.info_foot li .woman.over {
+  background: url("../image/sex_04.png") no-repeat 10px center;
+}
+.middle_right_top a:first-child {
+  background: url("../image/my_38.png") no-repeat 24px 25px;
+}
+.middle_left .no_content div{
+  background: url("../image/none_01.png") no-repeat center bottom;
+}
+.no_botborder .middle_right_top a:first-child {
+  background: url("../image/my_59.png") no-repeat 24px 30px;
+}
+.post_pic .mdl .upload_button{
+  background: url("../image/post_bn.png") no-repeat center;
+}
+.post_pic .mdl .upload_button:hover{
+  background: url("../image/post_bn02.png") no-repeat center;
+}
+.picpost01 .post_bn .upload_button{
+  background: url("../image/post_bn.png") center no-repeat;
+}
+.picpost01 .post_bn .upload_button:hover{
+  background: url("../image/post_bn02.png") center no-repeat;
+}
+.user_box_ul li p > a{
+  background:  url("../image/plus_icon02.png") no-repeat 15px;
+}
+.user_box_ul li p > a:hover{
+  background: #fe7880  url("../image/plus_icon.png") no-repeat 15px;
+}
+.post_position_div{
+  background:url("../image/post_list_nav_icon.png") no-repeat 5px;
+}
+.post_position_div .ligth{
+  background:url("../image/ligth_up01.png") no-repeat;
+}
+.post_position_div .toblack{
+  background:url("../image/ligth_down01.png") no-repeat;
+}
+.share_video .icon_share{
+  background: url("../image/share_00.png") no-repeat 18px 26px;
+}
+.we_fav li:first-child i.select{
+  background: url('../image/new_postdetail_collected.png') no-repeat center;
+}
+.we_fav li.ie02 i.select{
+  background: url('../image/new_postdetail_candyed.png') no-repeat center;
+}
+.we_fav li:first-child i{
+  background: url('../image/new_postdetail_collect.png') no-repeat center;
+}
+.we_fav li.ie02 i{
+  background: url('../image/new_postdetail_candy.png') no-repeat center;
+}
+.we_fav li:first-child i:hover{
+  background: url('../image/new_postdetail_collected01.png') no-repeat center;
+}
+.we_fav li.ie02 i:hover{
+  background: url('../image/new_postdetail_candyed01.png') no-repeat center;
+}
+.reply_video .show-hid{
+    background: rgba(0,0,0,0.6) url("../image/play.png") no-repeat center;
+}
+.no_comments{
+  background: url("../image/sofa01.png") no-repeat center;
+}
+.post_list_block_div .post_position_div{
+  background: url("../image/post_list_nav_icon.png") no-repeat 5px;
+}
+.user_content_div .follow_span{
+  background: #FD4C86 url("../image/plus_icon.png") no-repeat 8px;
+}
+.user_content_div .follow_span:hover{
+  background: #FB3B7B url("../image/plus_icon.png") no-repeat 8px;
+}
+.area_nav_div div.ie5 >.area_detail_user_btn{
+  background: #FD4C86 url("../image/plus_icon.png") no-repeat 15px;
+}
+.area_nav_div div.ie5 .area_detail_user_btn.qiandao{
+  background: #FD4C86 url("../image/user_home_checkin_icon.png") no-repeat 12px;
+}
+#hot_sort .sort_top{
+  background: url("../image/sorts_01.png") no-repeat;
+}
+#hot_recommend .recomend_top{
+  background: url("../image/recmmends_01.png") no-repeat;
+}
+.my_fenqu_top_all.ie1{
+  background: url('../image/my_27.png') no-repeat 10px center;
+}
+.my_fenqu_top_all.ie2{
+  background: url('../image/my_22.png') no-repeat 10px center;
+}
+.my_fenqu_top_all.ie3{
+  background: url('../image/my_24.png') no-repeat 10px center;
+}
+.hot-hall li.one .ie3{
+  background: url('../image/up01.png') no-repeat left center;
+}
+.hot-hall li.two .ie3{
+  background: url('../image/up02.png') no-repeat left center;
+}
+.hot-hall li .ie3{
+  background: url('../image/up03.png') no-repeat left center;
+}
+.hot-hall li span.ie7{
+  background: url('../image/hot05.png') no-repeat center;
+}
+.hot-hall li.one span.ie7{
+  background: url('../image/hot01.png') no-repeat center;
+}
+.hot-hall li.two span.ie7{
+  background: url('../image/hot02.png') no-repeat center;
+}
+.hot-hall li.three span.ie7{
+  background: url('../image/hot03.png') no-repeat center;
+}
+.hot-hall li.four span.ie7{
+  background: url('../image/hot04.png') no-repeat center;
+}
+/* .hot-hall li .ie0.h{
+  background: url('../image/se01.png') no-repeat left center;
+} */
+.hot-hall li .ie0.l{
+  background: url('../image/se02.png') no-repeat left center;
+}
+.hot-hall li .ie0.y{
+  background: url('../image/se03.png') no-repeat left center;
+}
+.game-all .more-top span{
+  background: url("../image/l1.png") no-repeat,url("../image/l2.png") right no-repeat;
+}
+.more-detail .more-img .more span{
+  background: url("../image/updown.png") center no-repeat;
+}
+.more-detail .more-img .more span.up{
+  background: url("../image/updown01.png") center no-repeat;
+}
+.area_div_pc .game_top{
+    background: url('../image/post_list_nav_icon.png') no-repeat 25px 17px;
+}
+.game-diff span.s3 .search{
+  background: url("../image/search01.png") no-repeat center;
+}
+.game-diff span.s3 .search.down{
+  background: url("../image/search02.png") no-repeat center;
+}
+.game-once .rec-list li .name .s2{
+  background: url('../image/fire01.png') no-repeat left center;
+}
+.yuan_img span.post_delete {
+  background: url('../image/delete.png') no-repeat center;
+}
+.yuan-button em {
+  background: url('../image/post_edit.png') no-repeat left center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

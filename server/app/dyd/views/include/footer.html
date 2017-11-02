@@ -1,0 +1,16 @@
+<div class="footer-container">
+    <div class="footer-center auto_center">
+        <div class="footer-top-center clr">
+            <div class="footer-about">关于我们</div>
+            <div class="footer-links">
+                <div class="footer-links-title">友情链接</div>
+                <ul>
+                    {% for links_item in constant.footer_links %}
+                        {% include 'common/footer_link.html' %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="footer-tips">温馨提醒</div>
+    </div>
+</div>

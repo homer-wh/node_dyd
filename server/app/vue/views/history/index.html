@@ -1,0 +1,21 @@
+{% extends "../_common/layout.html" %} 
+
+{% block "block_custom_css" %}
+<link href="{{constant.cdn}}/vue/static/image/favicon.ico" type="image/x-icon" rel="icon">
+
+{% endblock %} 
+
+{% block "block_custom_js" %}
+
+    <script src="/vue/static/js/history/build.js?fbd2fbedb2"></script>
+
+    <script src="/vue/static/js/common/build.js?2960bdf6b8"></script>
+
+{% endblock %} 
+
+{% block "content" %}
+
+    <!-- 页面入口 -->
+    <div id="app"></div>
+
+{% endblock %}

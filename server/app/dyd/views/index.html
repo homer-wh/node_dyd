@@ -1,0 +1,34 @@
+{% extends 'common/layout.html' %}
+{% block head_static %}
+<link rel="stylesheet" type="text/css" href="{{constant.cdn.dyd + '/css/index.css'}}">
+<link rel="stylesheet" type="text/css" href="{{constant.cdn.dyd + '/css/lib/swiper-3.4.1.min.css'}}">
+{% endblock%}
+{% block content %}
+    <div class="main-container auto_center">
+        <div>这里是 index 的 banner部分</div>
+        {% include 'include/banner_dynamic.html' %}
+        {% include 'include/banner_static.html' %}
+            
+        <div>这里是 index 的 专区 热门 推荐展示</div>
+
+        {% for area_item in cos_area %}
+            {% include 'include/index_area.html' %}
+        {% endfor %}
+
+        <section>这里是 index 的 热门主题推荐</section>
+
+        {% for area_item in index_areas %}
+            {% include 'include/index_area.html' %}
+        {% endfor %}
+        
+        {% for area_item in index_areas %}
+            {% include 'include/index_area.html' %}
+        {% endfor %}
+    </div>
+{% endblock %}
+{% block body_end_js %}
+<script type="text/javascript">
+    //将js文件 放置到body结束之前下载 加快页面渲染速度
+    //这里是一个js文件引用
+</script>
+{% endblock%}

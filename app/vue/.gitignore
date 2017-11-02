@@ -1,0 +1,9 @@
+.DS_store
+
+npm-debug.log
+
+yarn-error.log
+
+/node_modules
+
+/static/**/rev-manifest.json

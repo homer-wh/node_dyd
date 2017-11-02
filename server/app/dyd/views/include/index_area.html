@@ -1,0 +1,17 @@
+<section>这里是 首页 推荐专区 第<span>{{area_item.num}}</span>个
+    <div>这里是专区名 <span>{{area_item.name}}</span></div>
+    <ul>
+        {% if area_item.type === 'normal' %}
+            {% for post_card_normal_item in area_item.posts %}
+                <div>这是一个 首页 图文类型的 帖子卡片</div>
+                {% include 'common/post_card_normal.html' %}
+            {% endfor %}
+        {% endif %}
+        {% if area_item.type === 'media' %}
+            {% for post_card_media_item in area_item.posts %}
+                <div>这是一个 首页 多媒体类型的 帖子卡片</div>
+                {% include 'common/post_card_media.html' %}
+            {% endfor %}
+        {% endif %}
+    </ul>
+</section>
